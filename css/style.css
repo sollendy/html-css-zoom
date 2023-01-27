@@ -5,4 +5,16 @@ header nav {
 
 .container {
     color: white;
+    position: relative;
+}
+
+.container div {
+    display: flex;
+    
+    background-color: rgb(74, 74, 74);
+    width: 8rem;
+    height: 2rem;
+    right: 1px;
+    padding-right: 10px;
+
 }
