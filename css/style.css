@@ -39,7 +39,7 @@
     color: white;
     max-width: 100%;
     margin: 2em auto;
-    padding: 0 6em 0 5em;
+    padding: 0 5em 0 5em;
 }
 
 #riquadri {
@@ -53,4 +53,8 @@
     border: solid 1px white;
     width: calc(100% / 7);
     height: calc(100% / 5);
+}
+
+.utenti img {
+    
 }
