@@ -1,8 +1,4 @@
-.container {
-    background-color: black;
-    height: calc(100vh - 4em);
-    overflow: auto;
-}
+
 
 #simboli {
     display: flex;
@@ -10,13 +6,11 @@
     gap: 10px;
     color: white;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .alto-destra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4px;
+    
 }
 
 .container .speaker {
@@ -35,26 +29,42 @@
     margin-right: 5px;
 }
 
+.container {
+    height: 100vh;
+}
+
+.call-container {
+    position: relative;
+    height: calc(100% - 100px);
+    background-color: grey;
+}
+
 .videochiamata {
-    color: white;
-    max-width: 100%;
-    margin: 2em auto;
-    padding: 0 5em 0 5em;
+    display: flex;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    background-color: brown;
+
 }
 
 #riquadri {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    height: 35em;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
 }
 
 .utenti {
-    border: solid 1px white;
-    width: calc(100% / 7);
-    height: calc(100% / 5);
+    width: calc(100% / 7 - 5px);
+    height: calc(100% / 5 - 5px);
 }
 
 .utenti img {
-    
+    width: 100%;
+    height: 100%;
 }
+
+footer
