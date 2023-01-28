@@ -63,6 +63,7 @@ body {
 }
 
 .utenti {
+    position: relative;
     width: calc(100% / 7 - 5px);
     height: calc(100% / 5 - 5px);
 }
@@ -72,6 +73,18 @@ body {
     height: 100%;
 }
 
+.badge {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    background-color: grey;
+    
+}
 footer nav {
     background-color: rgb(34, 34, 34);
     width: 100%;
@@ -82,22 +95,54 @@ footer nav {
     color: white;
 }
 
+.icone-inf {
+    width: 30%;
+}
+
 nav .icone-sinis {
-    margin-left: 10px;
-    width: 20%;
+    padding-left: 10px;
+    width: 13%;
     display: flex;
-    gap: 20px;
+    gap: 10px;
+}
+
+.mic {
+    padding-left: 14px;
+}
+
+.icone-sinis .icone-inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-sinis .icone-inf i {
+    font-size: 25px;
 }
 
 nav .icone-cent {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    width: 40%;
+    gap: 10px;
+    width: 45%;
 }
 
+.icone-cent .icone-inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-cent .icone-inf i {
+    font-size: 25px;
+    padding-left: ;
+}
+
+
 .icone-inf h6 {
-    
+    width: 20px;
 }
 
 .icone-des {
