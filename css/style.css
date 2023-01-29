@@ -41,7 +41,7 @@ body {
 .call-container {
     position: relative;
     height: calc(100% - 70px);
-    background-color: grey;
+    background-color: black;
 }
 
 .videochiamata {
@@ -142,13 +142,32 @@ nav .icone-cent {
     align-items: center;
 }
 
+.icone-sinis .icone-inf .freccesu .left-side,
+.icone-cent .icone-inf .freccesu .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-sinis .icone-inf .freccesu .right-side,
+.icone-cent .icone-inf .freccesu .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-cent .icone-inf .freccesu{
+    display: flex;
+    flex-direction: row;
+}
+
 .icone-cent .icone-inf i {
     font-size: 25px;
 }
 
-
-.icone-inf h6 {
-    width: 20px;
+.icone-cent h6 {
+    white-space: nowrap;
 }
 
 .icone-des {
